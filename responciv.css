@@ -1,0 +1,75 @@
+@media only screen and (max-width:992px) {
+    .drop-icon i {
+        display: block;
+        margin-right: 2rem;
+    }
+    ul li {
+        display: none;
+        background-color: #fff;
+    }
+    .navicanion-res {
+        width: 28%;
+        transition: 0.4s;
+    }
+    .navicanion-res ul {
+        text-align: center;
+    }
+    .activesNav {
+        position: absolute;
+        left: -1000%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .navicanion-res {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .navicanion-res {
+        width: 37%;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .navicanion-res {
+        width: 44%;
+    }
+    .logo-heder h1 a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .navicanion-res {
+        width: 47%;
+    }
+    .navicanion-res ul li a {
+        font-size: 0.7rem;
+    }
+    .drop-icon i {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .logo-heder h1 a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .navicanion-res {
+        width: 55%;
+    }
+    .logo-heder h1 a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:266px) {
+    .logo-heder h1 a {
+        font-size: 0.7rem;
+    }
+}
